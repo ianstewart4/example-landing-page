@@ -850,11 +850,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   color: rgb(22 96 136 / var(--tw-text-opacity));
 }
 
-.text-font-main {
-  --tw-text-opacity: 1;
-  color: rgb(38 116 233 / var(--tw-text-opacity));
-}
-
 .text-font-secondary {
   --tw-text-opacity: 1;
   color: rgb(38 70 83 / var(--tw-text-opacity));
