@@ -9,7 +9,9 @@ body {
     background-position: 90% -25%;
 } */
 
-body {}
+body {
+    background-image: linear-gradient(#F4A261, #E76F51);
+}
 
 #cta {
     background-color: #39005B;

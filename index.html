@@ -6,11 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/main.css">
-    <link rel="icon" type="image/pmg" href="img/iconmonstr-paper-plane-1-240.png">
+    <link rel="icon" type="image/pmg" href="img/iconmonstr-photo-camera-12-240.png">
     <title>Landing Page</title>
 </head>
 
-<body class="bg-background">
+<body>
+
+    <!-- Nav Section -->
     <nav class="relative container mx-auto p-6">
         <!-- Flex container -->
         <div class="flex items-center justify-between">
@@ -21,7 +23,7 @@
 
 
             <!-- Menu Items -->
-            <div class="hidden lg:flex space-x-6">
+            <div class="hidden lg:flex space-x-6 ">
                 <a href="#" class="hover:text-font-main">Pricing</a>
                 <a href="#" class="hover:text-font-main">Product</a>
                 <a href="#" class="hover:text-font-main">About Us</a>
@@ -30,7 +32,7 @@
             </div>
             <!-- Button -->
             <a href=""
-                class="hidden lg:block p-3 px-6 pt-2 text-button-font bg-button rounded-full baseline hover:bg-button-hover drop-shadow-md">
+                class="hidden lg:block p-3 px-6 pt-2 text-white bg-button rounded-full baseline hover:bg-button-hover drop-shadow-md">
                 Get Started
             </a>
 
@@ -45,7 +47,7 @@
         <!-- Mobile Menu -->
         <div class="lg:hidden">
             <div id="menu"
-                class="absolute flex-col items-center self-end mt-10 space-y-6 hidden font-bold bg-background sm:w-auto sm:self-center left-6 right-6 pb-96">
+                class="absolute flex-col items-center self-end mt-10 space-y-6 hidden font-bold bg-background sm:w-auto sm:self-center left-6 right-6 pb-96 z-10">
                 <a href="#">Pricing</a>
                 <a href="#">Product</a>
                 <a href="#">About Us</a>
@@ -61,24 +63,26 @@
         <div class="container flex flex-col-reverse md:flex-row items-center px-6 mx-auto mt-10 space-y-0 md:space-y-0">
             <!-- Left Item -->
             <div class="flex flex-col mb-32 space-y-12 md:w-1/2">
-                <h1 class="max-w-md text-4xl font-bold text-center md:text-5xl md:text-left">
-                    Grow your business faster, anywhere
+                <h1
+                    class="max-w-md text-4xl font-bold text-center md:text-5xl md:text-left font-serif font-light text-white">
+                    Grow your business faster, from anywhere
                 </h1>
-                <p class="max-w-sm text-center text-darkGrayishBlue md:text-left">
+                <p class="max-w-sm text-center md:text-left">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus iure enim, assumenda ullam at nam
                     sapiente asperiores quo possimus atque!
                 </p>
                 <div class="flex justify-center md:justify-start">
                     <a href=""
-                        class="p-3 px-6 pt-2 text-button-font bg-button rounded-full baseline hover:bg-button-hover drop-shadow-md">
+                        class="p-3 px-6 pt-2 text-white bg-button rounded-full baseline hover:bg-button-hover drop-shadow-md">
                         Find Out How
                     </a>
                 </div>
             </div>
             <!-- Image -->
             <div>
-                <img src="/img/World wide web_Isometric.svg" class="object-cover rounded-lg w-auto md:-mt-24 mb-10"
-                    alt="Woman tending to plant with computer nearby">
+                <img src="/img/World wide web_Isometric.svg"
+                    class="object-cover rounded-lg w-auto md:-mt-24 mb-10 flex xl:self-start drop-shadow-md"
+                    alt="Woman sitting on a globe on her computer">
             </div>
         </div>
     </section>
@@ -91,14 +95,16 @@
 
             <!-- Features -->
             <div class="flex flex-col space-y-8 md:w-1/2">
-                <h2 class="max-w-md text-4xl font-bold text-center md:text-left">What makes Lorem great?</h2>
-                <p class="max-w-sm text-center text-darkGrayishBlue md:text-left">
+                <h2 class="max-w-md text-4xl font-bold text-center md:text-left">What makes Lorem great?
+                </h2>
+                <p class="max-w-sm text-center md:text-left">
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores deserunt laboriosam
                     exercitationem. Nostrum vitae quidem, eaque accusamus nemo maiores, ullam harum soluta, ipsam omnis
                     hic voluptatem tenetur sed.
                 </p>
                 <div>
-                    <img src="/img/Online report_Isometric.svg" class="object-cover rounded-lg w-auto mb-10" alt="">
+                    <img src="/img/Online report_Isometric.svg"
+                        class="object-cover rounded-lg w-auto mb-10 drop-shadow-md" alt="">
                 </div>
             </div>
             <!-- Numbered List -->
@@ -106,9 +112,9 @@
                 <!-- List Item 1 -->
                 <div class="flex flex-col space-y-3 md:space-y-0 md:space-x-6 md:flex-row">
                     <!-- Heading -->
-                    <div class="rounded-l-full bg-brightRedSupLight md:bg-transparent">
+                    <div class="rounded-l-full md:bg-transparent">
                         <div class="flex items-center space-x-2">
-                            <div class="px-4 py-2 text-white rounded-full md:py-1 bg-brightRed">
+                            <div class="px-4 py-2 text-white rounded-full md:py-1">
                                 01
                             </div>
                             <h3 class="text-base font-bold md:mb-4 md:hidden">
@@ -118,7 +124,7 @@
                     </div>
                     <div>
                         <h3 class="hidden text-lg font-bold md:block">Build bigger and faster</h3>
-                        <p class="text-darkGrayishBlue">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta
                             nemo dolorem, mollitia dolorum non sunt repellendus nisi quidem velit nostrum quod.
                             Laboriosam, voluptatem odio ratione ipsa reprehenderit ad repellendus rem.</p>
                     </div>
@@ -126,9 +132,9 @@
                 <!-- List Item 2 -->
                 <div class="flex flex-col space-y-3 md:space-y-0 md:space-x-6 md:flex-row">
                     <!-- Heading -->
-                    <div class="rounded-l-full bg-brightRedSupLight md:bg-transparent">
+                    <div class="">
                         <div class="flex items-center space-x-2">
-                            <div class="px-4 py-2 text-white rounded-full md:py-1 bg-brightRed">
+                            <div class="px-4 py-2 text-white rounded-full md:py-1">
                                 02
                             </div>
                             <h3 class="text-base font-bold md:mb-4 md:hidden">
@@ -138,7 +144,7 @@
                     </div>
                     <div>
                         <h3 class="hidden text-lg font-bold md:block">Online Reports</h3>
-                        <p class="text-darkGrayishBlue">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta
                             nemo dolorem, mollitia dolorum non sunt repellendus nisi quidem velit nostrum quod.
                             Laboriosam, voluptatem odio ratione ipsa reprehenderit ad repellendus rem.</p>
                     </div>
@@ -148,17 +154,17 @@
                     <!-- Heading -->
                     <div class="rounded-l-full bg-brightRedSupLight md:bg-transparent">
                         <div class="flex items-center space-x-2">
-                            <div class="px-4 py-2 text-white rounded-full md:py-1 bg-brightRed">
+                            <div class="px-4 py-2 text-white rounded-full md:py-1">
                                 03
                             </div>
                             <h3 class="text-base font-bold md:mb-4 md:hidden">
-                                What's new
+                                Mobile Platform
                             </h3>
                         </div>
                     </div>
                     <div>
                         <h3 class="hidden text-lg font-bold md:block">What's new</h3>
-                        <p class="text-darkGrayishBlue">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta
                             nemo dolorem, mollitia dolorum non sunt repellendus nisi quidem velit nostrum quod.
                             Laboriosam, voluptatem odio ratione ipsa reprehenderit ad repellendus rem.</p>
                     </div>
@@ -167,18 +173,18 @@
         </div>
     </section>
 
-    <!-- Testimonials -->
+    <!-- Review Section -->
     <section id="testimonials">
         <div class="max-w-6xl px-5 mx-auto mt-12 text-center">
-            <h2 class="text-4xl font-bold text-center">
+            <h2 class="text-4xl font-bold text-center font-serif">
                 Customer Reviews
             </h2>
             <!-- Testimonials Container -->
             <div class="flex flex-col mt-24 md:flex-row md:space-x-6">
                 <div
-                    class="flex flex-col items-center p-6 space-y-6 rounded-lg w-5/6 m-auto bg-button-secondary md:w-1/3 mb-10">
+                    class="flex flex-col items-center p-6 space-y-6 rounded-lg w-5/6 m-auto bg-testimonial-background md:w-1/3 mb-10 drop-shadow-md">
                     <img src="img/avataaars (1).svg" class="w-24 -mt-14" alt="">
-                    <h5 class="text-lg font-bold">Sandra</h5>
+                    <h5 class="text-lg font-bold font-serif font-normal">Sandra</h5>
                     <p class="text-sm text-083953">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae maiores cupiditate voluptates,
                         eius consequuntur fuga? Vitae consequatur natus sapiente corporis libero. Enim fugiat
@@ -189,8 +195,8 @@
                 <div
                     class="flex flex-col items-center p-6 space-y-6 rounded-lg w-5/6 m-auto bg-button-secondary md:w-1/3 mb-10">
                     <img src="img/avataaars.svg" class="w-24 -mt-14" alt="">
-                    <h5 class="text-lg font-bold">Allen</h5>
-                    <p class="text-sm text-font-tertiary">
+                    <h5 class="text-lg font-bold font-serif font-normal">Allen</h5>
+                    <p class="text-sm">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae maiores cupiditate voluptates,
                         eius consequuntur fuga? Vitae consequatur natus sapiente corporis libero. Enim fugiat
                         consequatur quam.
@@ -200,8 +206,8 @@
                 <div
                     class="flex flex-col items-center p-6 space-y-6 rounded-lg w-5/6 m-auto bg-button-secondary md:w-1/3 mb-10">
                     <img src="img/avataaars (2).svg" class="w-24 -mt-14" alt="">
-                    <h5 class="text-lg font-bold">Rachel</h5>
-                    <p class="text-sm text-font-tertiary">
+                    <h5 class="text-lg font-bold font-serif font-normal">Rachel</h5>
+                    <p class="text-sm">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae maiores cupiditate voluptates,
                         eius consequuntur fuga? Vitae consequatur natus sapiente corporis libero. Enim fugiat
                         consequatur quam.
@@ -213,7 +219,7 @@
 
             <div class="my-16">
                 <a href=""
-                    class="p-3 px-6 pt-2 text-button-font bg-button rounded-full baseline hover:bg-button-hover drop-shadow-md">
+                    class="p-3 px-6 pt-2 text-white bg-button rounded-full baseline hover:bg-button-hover drop-shadow-md">
                     More Reviews
                 </a>
             </div>
@@ -275,7 +281,7 @@
             </div>
             <!-- List Container -->
             <div class="flex justify-around space-x-32">
-                <div class="flex flex-col space-y-3 text-font-secondary">
+                <div class="flex flex-col space-y-3 text-font-main">
                     <a href="#" class="hover:text-font-hover">Home</a>
                     <a href="#" class="hover:text-font-hover">Pricing</a>
                     <a href="#" class="hover:text-font-hover">Products</a>
@@ -301,9 +307,9 @@
 
                     </div>
                 </form>
-                <div class="hidden text-font-secondary lg:block">
+                <!-- <div class="hidden text-font-secondary lg:block">
                     Copyright &copy; 2022, All Rights Reserved
-                </div>
+                </div> -->
             </div>
         </div>
     </footer>

@@ -490,12 +490,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   }
 }
 
-@media (min-width: 1440px) {
-  .container {
-    max-width: 1440px;
-  }
-}
-
 .absolute {
   position: absolute;
 }
@@ -510,6 +504,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .right-6 {
   right: 1.5rem;
+}
+
+.z-10 {
+  z-index: 10;
 }
 
 .m-auto {
@@ -712,14 +710,19 @@ Ensure the default browser behavior of the `hidden` attribute.
   border-bottom-left-radius: 9999px;
 }
 
-.bg-background {
-  --tw-bg-opacity: 1;
-  background-color: rgb(79 109 122 / var(--tw-bg-opacity));
-}
-
 .bg-button {
   --tw-bg-opacity: 1;
-  background-color: rgb(22 96 136 / var(--tw-bg-opacity));
+  background-color: rgb(42 157 143 / var(--tw-bg-opacity));
+}
+
+.bg-background {
+  --tw-bg-opacity: 1;
+  background-color: rgb(244 162 97 / var(--tw-bg-opacity));
+}
+
+.bg-testimonial-background {
+  --tw-bg-opacity: 1;
+  background-color: rgb(219 233 238 / var(--tw-bg-opacity));
 }
 
 .bg-button-secondary {
@@ -792,6 +795,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   text-align: center;
 }
 
+.font-serif {
+  font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+}
+
 .text-4xl {
   font-size: 2.25rem;
   line-height: 2.5rem;
@@ -821,13 +828,16 @@ Ensure the default browser behavior of the `hidden` attribute.
   font-weight: 700;
 }
 
-.leading-tight {
-  line-height: 1.25;
+.font-light {
+  font-weight: 300;
 }
 
-.text-button-font {
-  --tw-text-opacity: 1;
-  color: rgb(219 233 238 / var(--tw-text-opacity));
+.font-normal {
+  font-weight: 400;
+}
+
+.leading-tight {
+  line-height: 1.25;
 }
 
 .text-white {
@@ -835,19 +845,19 @@ Ensure the default browser behavior of the `hidden` attribute.
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-.text-font-tertiary {
-  --tw-text-opacity: 1;
-  color: rgb(8 57 83 / var(--tw-text-opacity));
-}
-
 .text-button-secondary-font {
   --tw-text-opacity: 1;
   color: rgb(22 96 136 / var(--tw-text-opacity));
 }
 
+.text-font-main {
+  --tw-text-opacity: 1;
+  color: rgb(38 116 233 / var(--tw-text-opacity));
+}
+
 .text-font-secondary {
   --tw-text-opacity: 1;
-  color: rgb(219 233 238 / var(--tw-text-opacity));
+  color: rgb(38 70 83 / var(--tw-text-opacity));
 }
 
 .shadow-2xl {
@@ -870,6 +880,7 @@ body {
 } */
 
 body {
+  background-image: linear-gradient(#F4A261, #E76F51);
 }
 
 #cta {
@@ -948,7 +959,7 @@ body {
 
 .hover\:text-font-main:hover {
   --tw-text-opacity: 1;
-  color: rgb(22 96 136 / var(--tw-text-opacity));
+  color: rgb(38 116 233 / var(--tw-text-opacity));
 }
 
 .hover\:text-font-hover:hover {
