@@ -3,12 +3,16 @@
 ## Description
 An example landing page for a fake company 
 
+### Demo
+https://ian-example-landing-page.netlify.app/
+
 ## Built With
 <ul>
     <li>HTML</li>
     <li>TailwindCSS</li>
     <li>Javascript</li>
 </ul>
+
   
 ## Enhancements
 <ul>
